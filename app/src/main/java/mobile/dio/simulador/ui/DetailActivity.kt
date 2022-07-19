@@ -1,4 +1,4 @@
-package mobile.dio.simulador
+package mobile.dio.simulador.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
