@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
                 public void onResponse(Call<List<Match>> call, Response<List<Match>> response) {
                     if(response.isSuccessful()) {
                         List<Match> matches = response.body();
-                        Log.i("Simulator","Deu certo, Partidas = " + matches.size());
                     } else {
                         showErrorMessage();
                     }
